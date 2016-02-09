@@ -1,2 +1,2 @@
 # dotfiles
-Really simple version of my dotfiles
+Really simple version of my dotfiles.
