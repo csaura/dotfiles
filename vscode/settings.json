@@ -1,0 +1,10 @@
+{
+    "window.zoomLevel": 2,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": true,
+    "editor.multiCursorModifier": "alt",
+    "go.inferGopath": true,
+    "workbench.iconTheme": "vscode-icons"
+}
