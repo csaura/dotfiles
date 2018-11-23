@@ -39,6 +39,7 @@ nmap <Leader>e :CtrlPMRU<CR>
 nmap <Leader>o :CtrlPTag<CR>
 
 map <leader>n <ESC>:NERDTreeToggle<RETURN>
+let NERDTreeShowHidden=1
 
 let g:Powerline_symbols = 'fancy'
 
