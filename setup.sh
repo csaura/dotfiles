@@ -22,3 +22,11 @@ fi
 ln -s "$(pwd)"/vim/vimrc ~/.vimrc
 ln -s "$(pwd)"/vim/.nvim ~/.config/nvim/init.vim
 
+echo "Setting emacs"
+
+if [ ! -d ~/.emacs.d ]; then
+  git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+fi
+
+ln -s "$(pwd)"/emacs/.spacemacs ~/.spacemacs
+
