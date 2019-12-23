@@ -30,6 +30,9 @@ fi
 
 ln -s "$(pwd)"/emacs/.spacemacs ~/.spacemacs
 
+echo "Setting git config"
+ln -s "$(pwd)"/git/.gitconfig ~/.gitconfig
+
 echo "Setting Visual Studio Code"
 
 if which code > /dev/null 2>&1; then
