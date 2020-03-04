@@ -20,6 +20,8 @@ if [ ! -d ~/.vim ]; then
 fi
 
 ln -s "$(pwd)"/vim/vimrc ~/.vimrc
+mkdir ~/.config
+mkdir ~/.config/nvim
 ln -s "$(pwd)"/vim/.nvim ~/.config/nvim/init.vim
 
 echo "Setting emacs"
