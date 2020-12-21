@@ -59,3 +59,4 @@ brew "watch"
 brew "wdiff", args: ["with-gettext"]
 brew "wget"
 brew "yarn"
+brew "duf"
