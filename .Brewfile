@@ -54,7 +54,6 @@ brew "tig"
 brew "tldr"
 brew "tree"
 brew "unzip"
-brew "vim", args: ["with-override-system-vi"]
 brew "watch"
 brew "wdiff", args: ["with-gettext"]
 brew "wget"
