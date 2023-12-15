@@ -35,12 +35,12 @@ ln -s "$(pwd)"/emacs/.spacemacs ~/.spacemacs
 echo "Setting git config"
 ln -s "$(pwd)"/git/.gitconfig ~/.gitconfig
 
-echo "Setting Visual Studio Code"
+# echo "Setting Visual Studio Code"
 
-if which code > /dev/null 2>&1; then
-  echo "code installed"
-  . vscode/setup.sh
-else
-  echo "code shell is not installed"
-  echo "Open the Command Palette (⇧ ⌘ P) and type 'shell command' to find the Shell Command: Install 'code' command in PATH command."
-fi
+# if which code > /dev/null 2>&1; then
+#   echo "code installed"
+#   . vscode/setup.sh
+# else
+#   echo "code shell is not installed"
+#   echo "Open the Command Palette (⇧ ⌘ P) and type 'shell command' to find the Shell Command: Install 'code' command in PATH command."
+# fi
