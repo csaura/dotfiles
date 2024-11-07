@@ -3,7 +3,6 @@ brew "autoconf"
 brew "automake"
 brew "bash"
 brew "bat"
-brew "binutils", link: true
 brew "bison"
 brew "btop"
 brew "coreutils"
